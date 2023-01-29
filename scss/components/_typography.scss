@@ -71,7 +71,11 @@
 
 /***** BORDER-RIGHT *****/
 .border-right {
-  border-right: 0.1rem solid $gray-300;
+  border-right: 0.1rem solid $gray-400;
   height: 100%;
+
+  @include media-breakpoint-down(md) {
+    display: none;
+  }
 }
 /***** End BORDER-RIGHT *****/
