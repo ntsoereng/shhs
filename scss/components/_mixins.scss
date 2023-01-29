@@ -18,3 +18,10 @@
   transform: translate(-50%, -50%);
 }
 /***** End ABSOLUTE POSITION: CENTER *****/
+
+/***** SMMOTH TRANSITION *****/
+@mixin transitionProperty {
+  transition-duration: 1s;
+  transition-property: all;
+}
+/***** End SMMOTH TRANSITION *****/
