@@ -4,8 +4,8 @@
 @mixin gradient {
   background: linear-gradient(
     to right,
-    rgba($primary, 0.95),
-    rgba($secondary, 0.95)
+    rgba($maroon-dark, 0.95),
+    rgba($maroon-light, 0.95)
   );
 }
 /***** End GRADIENT *****/

@@ -1,20 +1,6 @@
 @use 'custom';
 
-/***** IMPORT COMPONENTS *****/
-@use 'components/animations';
-@use 'components/button';
-@use 'components/mixins';
-@use 'components/typography';
-/***** End IMPORT COMPONENTS *****/
+@use 'base/typography';
 
-/***** IMPORT SECTIONS *****/
-@use 'sections/companies';
-@use 'sections/faq';
-@use 'sections/footer';
-@use 'sections/get-started';
-@use 'sections/intro-section';
-@use 'sections/navbar';
-@use 'sections/portfolio';
-@use 'sections/services';
-@use 'sections/testimonials';
-/***** End IMPORT SECTIONS *****/
+@use 'layout/navbar';
+@use 'layout/footer';
