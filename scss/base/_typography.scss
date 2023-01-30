@@ -6,15 +6,20 @@
   color: $secondary;
 }
 
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
 .display-2 {
   margin-bottom: 1rem;
   text-transform: capitalize;
-  font-family: 'Poppins', sans-serif;
+  // font-family: 'Poppins', sans-serif;
 
   &--intro {
     display: inline-block;
     font-weight: 700;
-    font-family: 'Poppins', sans-serif;
+    // font-family: 'Poppins', sans-serif;
   }
 
   &--description {
@@ -45,25 +50,25 @@
   content: '';
   width: 2rem;
   height: 0.2rem;
-  padding-top: 0.4rem;
+  padding-top: 0.2rem;
   display: block;
   background-color: $primary;
-  margin: 0 auto;
   margin-bottom: 1rem;
+  margin: 0 auto;
 }
 /***** End HEADING LINE *****/
 
 /***** DISPLAY-3 *****/
 .display-3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
 
   &--title {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-transform: capitalize;
     font-weight: 600;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     display: inline-block;
-    background-image: linear-gradient(to right, $primary, $secondary);
+    background-image: linear-gradient(to right, $maroon-dark, $maroon-light);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

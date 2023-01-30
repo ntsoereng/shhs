@@ -1,6 +1,12 @@
 @use 'custom';
 
+@use 'abstracts/variables';
+
+// @use 'base/base';
 @use 'base/typography';
 
+@use 'components/button';
+
 @use 'layout/navbar';
+@use 'layout/hero';
 @use 'layout/footer';

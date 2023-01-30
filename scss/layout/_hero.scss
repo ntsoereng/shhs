@@ -1,0 +1,14 @@
+@use '../custom' as *;
+@use '../abstracts/mixins' as *;
+
+.bg-image {
+  background-image: url(/assets/img/hero.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 75vh;
+  margin-top: 24px;
+}
+
+.mask {
+  background: rgba($black, 0.8);
+}
