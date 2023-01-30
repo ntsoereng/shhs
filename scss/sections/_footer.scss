@@ -100,3 +100,20 @@
     }
   }
 }
+
+// Back to top button
+.back-to-top {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  right: 1.875rem;
+  bottom: 1.875rem;
+  z-index: 9999;
+
+  i {
+    color: $white;
+    font-size: 1rem;
+    @include absolute-center;
+  }
+}
