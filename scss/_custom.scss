@@ -1,7 +1,7 @@
 /***** MY THEME COLOURS *****/
-$maroon-dark: #7c0000;
-$maroon-light: #bc0000;
-$gold: #fffd07;
+$maroon-dark: #6e2229;
+$maroon-light: #d2442e;
+$gold: #f4eb20;
 $dark: #282b3a;
 $footer: #151414;
 /***** End MY THEME COLOURS *****/
@@ -29,10 +29,10 @@ $secondary: $gold;
 /***** ACCORDION OVERRIDES *****/
 // Accordion Icon Colors
 $accordion-icon-color: $primary;
-$accordion-icon-active-color: $secondary;
+$accordion-icon-active-color: $maroon-light;
 
 // Accordion Icon Width
-$accordion-icon-width: 1.6rem;
+$accordion-icon-width: 1.4rem;
 
 // Accordion Padding
 $accordion-padding-y: 1.3rem;
