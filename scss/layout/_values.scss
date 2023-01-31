@@ -1,0 +1,43 @@
+@use '../custom' as *;
+@use '../abstracts/mixins' as *;
+
+.values {
+  @include gradient;
+
+  &__card {
+    background-color: rgba($white, 0.85);
+    border-radius: 0.375rem;
+    padding: 2rem 2rem 1rem 2rem;
+    height: 100%;
+  }
+
+  &__title {
+    font-weight: 600;
+  }
+
+  &__description {
+    line-height: 1.8;
+    font-weight: 500;
+  }
+
+  &__list {
+    position: relative;
+    list-style-type: none;
+    display: block;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+
+    li {
+      &::before {
+        font-family: 'Font Awesome 6 Free';
+        content: '\f00c';
+        font-size: 1rem;
+        font-weight: 600;
+        margin-right: 1rem;
+        color: $primary;
+      }
+    }
+  }
+}

@@ -1,18 +1,29 @@
 @use '../custom' as *;
 
 .footer {
-  padding-top: 1rem;
-  background-color: $footer;
+  margin-top: 1rem;
+  background-color: $gray-200;
 
   &__link {
     margin-bottom: 1rem;
+
+    &:hover {
+      color: $primary;
+    }
   }
 }
 
 // Social Media
 .footer-sm {
+  background-color: $white;
+  border-bottom: 1px solid $gray-400;
   a {
-    color: $white;
+    color: $dark;
+    transition: all 0.3s;
+
+    &:hover {
+      color: $primary;
+    }
 
     i {
       font-size: 1rem;
