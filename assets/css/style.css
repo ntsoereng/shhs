@@ -11124,4 +11124,22 @@ body {
   }
 }
 
+.contact {
+  padding: 1.8rem 0;
+}
+.contact__detail {
+  display: flex;
+  align-items: baseline;
+}
+.contact__icon {
+  margin-right: 1rem;
+}
+.contact__icon i {
+  color: #7c0000;
+  font-size: 1rem;
+}
+.contact__info {
+  font-size: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */

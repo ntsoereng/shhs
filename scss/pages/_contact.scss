@@ -1,0 +1,23 @@
+@use '../custom' as *;
+@use '../abstracts/mixins' as *;
+
+.contact {
+  padding: 1.8rem 0;
+
+  &__detail {
+    display: flex;
+    align-items: baseline;
+  }
+
+  &__icon {
+    margin-right: 1rem;
+    i {
+      color: $primary;
+      font-size: 1rem;
+    }
+  }
+
+  &__info {
+    font-size: 1rem;
+  }
+}
